@@ -83,13 +83,54 @@ function input(){
 
 }
 function apagar(index){
+    var dia = document.querySelector("#Dia").value
+    switch (dia){
+        case "segunda":
+            id = "id" + index
+            document.getElementById(id).style.display = "none"
+            var indice = index - 1;
+            globalComida.splice(indice, 1)   
+        break;
+        case "terca":
+            id = "id" + index
+            document.getElementById(id).style.display = "none"
+            var indice = index - 1;
+            globalComida.splice(indice, 1)
+         break;
+        case "quarta":
+            id = "id" + index
+            document.getElementById(id).style.display = "none"
+            var indice = index - 1;
+            globalComida.splice(indice, 1)
+        break;
+        case "quinta":
+            id = "id" + index
+            document.getElementById(id).style.display = "none"
+            var indice = index - 1;
+            globalComida.splice(indice, 1)
+        break;
+        case "sexta":
+            id = "id" + index
+            document.getElementById(id).style.display = "none"
+            var indice = index - 1;
+            globalComida.splice(indice, 1)   
+        break;
+        case "sabado":
+            id = "id" + index
+            document.getElementById(id).style.display = "none"
+            var indice = index - 1;
+            globalComida.splice(indice, 1)   
+        break;
+        case "domingo":
+            id = "id" + index
+            document.getElementById(id).style.display = "none"
+            var indice = index - 1;
+            globalComida.splice(indice, 1)
+        break;
+        
+    }
     
-    
-    id = "id" + index
-    alert(id)
-    document.getElementById(id).style.display = "none"
-    var indice = index - 1;
-    globalComida.splice(indice, 1)
+   
 }
 
 function editar(index){
