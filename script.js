@@ -83,7 +83,10 @@ function input(){
 
 }
 function apagar(index){
+    
+    
     id = "id" + index
+    alert(id)
     document.getElementById(id).style.display = "none"
     var indice = index - 1;
     globalComida.splice(indice, 1)
