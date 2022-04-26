@@ -126,7 +126,7 @@ function calcular(){
 
     var imc = peso /(altura * altura);
 
-    document.getElementById("resposta").innerHTML = "O seu IMC é: " + imc.toFixed(6)
+    document.getElementById("resposta").innerHTML = "O seu IMC é: " + imc.toFixed(2)
     document.getElementById("resposta").style.textAlign = 'center'
     document.getElementById("resposta").style.marginTop = '20px'
     document.getElementById("resposta").style.fontFamily = 'Montserrat, sans-serif;'
